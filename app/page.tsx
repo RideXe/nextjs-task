@@ -18,6 +18,12 @@ export default function Home() {
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
             <Link
+              href="/chat"
+              className="rounded-lg bg-emerald-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-emerald-700"
+            >
+              Chat with AI
+            </Link>
+            <Link
               href="/get-started"
               className="rounded-lg bg-sky-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-sky-700"
             >
